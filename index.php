@@ -43,8 +43,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Benefits of PIM & Massage<b class="caret"></b></a>
                     <ul class="dropdown-menu">
+                        <li><a href="benefits.html">Benefits of Post Isometric Miorelaxation</a></li>
                         <li><a href="why_remedial.html">Types of Massage</a></li>
-                        <li><a href="benefits.html">Benefits</a></li>
                      </ul>
                 </li>
 				<li class="dropdown">
@@ -60,7 +60,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="faq.html">Frequently Asked Questions</a></li>
-                        <li><a href="test.pdf">Appointment Form</a></li>
+                        <li><a href="Historyformdownload.docx">Download Health History Report</a></li>
                     </ul>
                 </li>
             </ul>
