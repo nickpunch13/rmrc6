@@ -41,14 +41,14 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="home.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Benefits of PIR & Massage<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">Benefits of PIR & Massage<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="benefits.html">Benefits of Post Isometric Miorelaxation</a></li>
                         <li><a href="why_remedial.html">Types of Massage</a></li>
                      </ul>
                 </li>
 				<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services and Prices<b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">Services and Prices<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="services.html">Services</a></li>
                         <li><a href="hot_deals.html">Hot Deals</a></li>
@@ -57,7 +57,7 @@
 				<li><a href="http://tompit.appointy.com">Online Booking</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">FAQ <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="faq.html">Frequently Asked Questions</a></li>
                         <li><a href="Historyformdownload.docx">Download Health History Report</a></li>
