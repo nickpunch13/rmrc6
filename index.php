@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="./assets/ico/favicon.png">
 
-    <title>Remedial Massage & Rehabilitation Center</title>
+    <title>REMEDIAL MASSAGE & REHABILITATION CENTRE</title>
 
 
     <link href="./dist/css/bootstrap.css" rel="stylesheet">
@@ -44,7 +44,7 @@
 				<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">Benefits of PIR & Massage<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="benefits.html">Benefits of Post Isometric Miorelaxation</a></li>
+                        <li><a href="benefits.html">Benefits of Post - Isometric Myorelaxation</a></li>
                         <li><a href="why_remedial.html">Types of Massage</a></li>
                      </ul>
                 </li>
@@ -65,21 +65,20 @@
                     </ul>
                 </li>
             </ul>
-        
             <form class="navbar-form navbar-right">
                 
         </div><!--/.navbar-collapse -->
     </div>
 </div>
 
-<img src="./img/test.jpg" alt='test' width='1370' height='400'>
+<img src="./img/test.jpg" alt='image' width='1370' height='400'>
 
 <div class="container">
 
     <div class="row">
         
         <div class="col-lg-10" align="center">
-            <h1 align="center">Remedial Massage & Rehabilitation Center</h1>			
+            <h1 align="center">Remedial Massage & Rehabilitation Centre</h1>			
 			<h2 align="center">If you want to be healthy, we can help you to reach your goals.</h2>
 			</br>
 			<h4 align="center">Why Post-Isometric Myorelaxation and Remedial Massage?</h4>
