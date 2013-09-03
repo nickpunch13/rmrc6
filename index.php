@@ -15,8 +15,8 @@
 
     <link href="./dist/css/bootstrap.css" rel="stylesheet">
 
-
-    <link href="jumbotron.css" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' href='styles.css' />
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,58 +27,44 @@
 
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="home.html">REMEDIAL MASSAGE & REHABILITATION CENTRE</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-				<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">Benefits of PIR & Massage<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="benefits.html">Benefits of Post - Isometric Myorelaxation</a></li>
-                        <li><a href="why_remedial.html">Types of Massage</a></li>
-                     </ul>
-                </li>
-				<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">Services and Prices<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="hot_deals.html">Hot Deals</a></li>
-                     </ul>
-                </li>	
-				<li><a href="http://tompit.appointy.com">Online Booking</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" onmouseover="click()">FAQ/Contact <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-						<li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="faq.html">Frequently Asked Questions</a></li>
-                        <li><a href="Historyformdownload.docx">Download Health History Report</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="navbar-form navbar-right">
-                
-        </div><!--/.navbar-collapse -->
-    </div>
-</div>
+<img src="./img/yMa2IlRJOOE.jpg" alt='image' width='1350' height='250'>
 
-<img src="./img/test.jpg" alt='image' width='1370' height='400'>
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href="home.html"><span>Home</span></a></li>
+   <li class='has-sub'><a href="benefits.html"><span>Benefits of PIR & Massage</span></a>
+      <ul>
+         <li><a href="benefits.html"><span>Benefits of Post - Isometric Myorelaxation</span></a></li>
+         <li class='last'><a href="why_remedial.html"><span>Types of Massage</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href="services.html"><span>Services and Prices</span></a>
+      <ul>
+         <li><a href="services.html"><span>Services</span></a></li>
+         <li class='last'><a href="hot_deals.html"><span>Hot Deals</span></a></li>
+      </ul>
+   </li>
+   <li><a href="http://tompit.appointy.com"><span>Online Booking</span></a></li>
+   <li class='has-sub'><a href="about.html"><span>About Us</span></a>
+      <ul>
+         <li class='last'><a href="contact.html"><span>Contact Us</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub last'><a href="faq.html"><span>FAQ</span></a>
+      <ul>
+         <li><a href="faq.html"><span>Frequently Asked Questions</span></a></li>
+         <li class='last'><a href="Historyformdownload.docx"><span>Download Health History Form</span></a></li>
+      </ul>
+   </li>
+</ul>
+</div>
 
 <div class="container">
 
     <div class="row">
         
         <div class="col-lg-10" align="center">
-            <h1 align="center">Remedial Massage & Rehabilitation Centre</h1>			
+            <h1 align="center">Remedial Massage & Rehabilitation Center</h1>			
 			<h2 align="center">If you want to be healthy, we can help you to reach your goals.</h2>
 			</br>
 			<h4 align="center">Why Post-Isometric Myorelaxation and Remedial Massage?</h4>
