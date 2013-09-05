@@ -1,142 +1,104 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:500);
-/* 2f4b87 */
-/* 2f4b87 */
-/* #1f325d */
-/* Menu CSS */#cssmenu {
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
   width: auto;
 }
-#cssmenu,
-#cssmenu ul,
-#cssmenu ul li,
-#cssmenu ul li a {
-  padding: 0;
-  margin: 0;
-  line-height: 1;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #ffffff;
-  -webkit-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  -moz-transition: all ease .3s;
-  -ms-transition: all ease .3s;
-  transition: all ease .3s;
-}
-#cssmenu:before,
-#cssmenu:after,
-#cssmenu > ul:before,
-#cssmenu > ul:after {
-  content: '';
-  display: table;
-}
-#cssmenu:after,
-#cssmenu > ul:after {
-  clear: both;
-}
-#cssmenu a {
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
 #cssmenu ul {
-  background: #5acce0;
-  border-radius: 3px;
-  border: 1px solid #2b4479;
-  border: 1px solid #2fbfd8;
-  -webkit-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-  -o-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-  -moz-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-  -ms-box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-  box-shadow: 0 1px 2px rgba(2, 2, 2, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.15);
-}
-#cssmenu ul > li {
-  float: left;
+  background: #423e3b;
+  height: 50px;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
 }
-#cssmenu ul > li > a {
+#cssmenu li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+#cssmenu li a {
+  color: #fff;
   display: block;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
   text-decoration: none;
-  padding: 15px 44px;
-  position: relative;
 }
-#cssmenu ul > li > a:hover {
-  background: #2fbfd8;
-  -webkit-box-shadow: inset 0 0 1px #229db2;
-  -o-box-shadow: inset 0 0 1px #229db2;
-  -moz-box-shadow: inset 0 0 1px #229db2;
-  -ms-box-shadow: inset 0 0 1px #229db2;
-  box-shadow: inset 0 0 1px #229db2;
-  -webkit-transition: all ease .3s;
-  -o-transition: all ease .3s;
-  -moz-transition: all ease .3s;
-  -ms-transition: all ease .3s;
-  transition: all ease .3s;
+#cssmenu li a:hover {
+  background: #FFDA47;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
 }
-#cssmenu ul > li > a:hover:before {
-  content: '';
-  z-index: 2;
+#cssmenu ul li:hover a {
+  background: #E68A00;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li > a.active  {
+	background: #E68A00;
+	color: #fff;
+	text-decoration: none;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+}
+#cssmenu li ul {
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
   position: absolute;
-  border: 1px solid white;
-  border-top: 0;
-  border-bottom: 0;
-  border-right: 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: -1px;
-  opacity: .2;
+  width: 200px;
+  z-index: 200;
 }
-#cssmenu ul > li > a:hover:after {
-  content: '';
-  z-index: 2;
-  position: absolute;
-  border: 1px solid white;
-  border-top: 0;
-  border-bottom: 0;
-  border-left: 0;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: -1px;
-  opacity: .2;
+#cssmenu li:hover ul {
+  display: block;
 }
-#cssmenu > ul > li > ul {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-}
-#cssmenu > ul > li:hover > ul {
-  opacity: 1;
-  visibility: visible;
-  position: absolute;
-  border-radius: 0 0 3px 3px;
-  -webkit-box-shadow: none;
-  -o-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  box-shadow: none;
-}
-#cssmenu > ul > li > ul {
-  width: 300px;
-  position: absolute;
-}
-#cssmenu > ul > li > ul > li {
+#cssmenu li li {
+  display: block;
   float: none;
-  position: relative;
+  margin: 0px;
+  padding: 0px;
+  width: 265px;
+  background: #423e3b;
+  /*this is where the rounded corners for the dropdown disappears*/
+
 }
-#cssmenu > ul > li > ul > li > ul {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
+#cssmenu li:hover li a {
+  background: none;
 }
-#cssmenu > ul > li > ul > li:hover > ul {
-  opacity: 1;
-  visibility: visible;
-  position: absolute;
+#cssmenu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
 }
-#cssmenu > ul > li > ul > li > ul {
-  left: 300px;
-  top: 1px;
-  width: 300px;
-}
-#cssmenu > ul > li > ul > li > ul > li {
-  float: none;
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover a {
+  border: 0px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #E68A00;
+  -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
 }

@@ -31,7 +31,8 @@
 
 <div id='cssmenu'>
 <ul>
-   <li class='active'><a href="home.html"><span>Home</span></a></li>
+   <li class='active'><a href="index.php"><span>Home</span></a></li>
+   <li><a href="about.html"><span>About Us</span></a></li>
    <li class='has-sub'><a href="benefits.html"><span>Benefits of PIR & Massage</span></a>
       <ul>
          <li><a href="benefits.html"><span>Benefits of Post - Isometric Myorelaxation</span></a></li>
@@ -45,12 +46,8 @@
       </ul>
    </li>
    <li><a href="http://tompit.appointy.com"><span>Online Booking</span></a></li>
-   <li class='has-sub'><a href="about.html"><span>About Us</span></a>
-      <ul>
-         <li class='last'><a href="contact.html"><span>Contact Us</span></a></li>
-      </ul>
-   </li>
-   <li class='has-sub last'><a href="faq.html"><span>FAQ</span></a>
+   <li><a href="contact.html"><span>Contact Us</span></a></li>
+   <li class='has-sub last'><a href="faq.html"><span>FAQs & Downloads</span></a>
       <ul>
          <li><a href="faq.html"><span>Frequently Asked Questions</span></a></li>
          <li class='last'><a href="Historyformdownload.docx"><span>Download Health History Form</span></a></li>
@@ -64,7 +61,7 @@
     <div class="row">
         
         <div class="col-lg-10" align="center">
-            <h1 align="center">Remedial Massage & Rehabilitation Center</h1>			
+            <h1 align="center">REMEDIAL MASSAGE & REHABILITATION CENTRE</h1>			
 			<h2 align="center">If you want to be healthy, we can help you to reach your goals.</h2>
 			</br>
 			<h4 align="center">Why Post-Isometric Myorelaxation and Remedial Massage?</h4>
