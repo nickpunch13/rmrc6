@@ -44,14 +44,14 @@
   box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
 }
 #cssmenu ul li:hover a {
-  background: #E68A00;
-  color: #FFFFFF;
+  background: #FFFF99;
+  color: #fff;
   text-decoration: none;
 }
 #cssmenu > ul > li.active > a,
 #cssmenu > ul > li > a.active  {
-	background: #E68A00;
-	color: #fff;
+	background: #FFFF99;
+	color: #000;
 	text-decoration: none;
   -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
@@ -95,9 +95,9 @@
 #cssmenu li ul a:hover,
 #cssmenu li ul li:hover a {
   border: 0px;
-  color: #FFFFFF;
+  color: #000;
   text-decoration: none;
-  background: #E68A00;
+  background: #FFFF99;
   -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
