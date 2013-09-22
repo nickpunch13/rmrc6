@@ -72,7 +72,8 @@
 			<img src="./img/i (16).jpg" alt='image'>
 		</div>
 			</br>
-			<p align="center"><a class="btn btn-primary" href="http://tompit.appointy.com">Book Your Session! &raquo;</a></p>
+			<p align="center"><a class="btn btn-primary" href="http://tompit.appointy.com">Book Your Session! &raquo;</a>
+								<a class="btn btn-success" href="hot_deals.html">Check out our specials! &raquo;</a></p>
     </div>
 
     <hr>
