@@ -6,6 +6,11 @@ $email=$_POST['uemail'];
 $subj=$_POST['subj'];
 $body=$_POST['ubody'];
 
+echo $name . " Name";
+echo $email . " EMAIL";
+echo $subj . " SUBJECT";
+echo $body;
+
 if (isset($_POST['uemail']))
 {
 	$email = $_POST['uemail'] ;
