@@ -6,10 +6,13 @@ $email=$_POST['uemail'];
 $subj=$_POST['subj'];
 $body=$_POST['ubody'];
 
-echo $name . " Name";
-echo $email . " EMAIL";
-echo $subj . " SUBJECT";
-echo $body;
+echo $name . " Name</br>";
+echo $email . " EMAIL</br>";
+echo $subj . " SUBJECT</br>";
+echo $body . "</br>";
+
+mail("nckpunch@yahoo.com.au", $subject,
+	$name . " wrote " . $message, "From:" . $email);
 
 if (isset($_POST['uemail']))
 {
