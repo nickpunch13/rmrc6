@@ -1,10 +1,16 @@
 <html>
 <body>
 <?php
+require_once "Mail.php";
+
 $name=$_POST['uname'];
 $email=$_POST['uemail'];
 $subj=$_POST['subj'];
 $body=$_POST['ubody'];
+
+$host = "smtp.mail.yahoo.com";
+$username = "smtp_username";
+$password = "smtp_password";
 
 echo $name . " Name</br>";
 echo $email . " EMAIL</br>";
@@ -26,5 +32,21 @@ if (isset($_POST['uemail']))
 
 ?>
 
+ $headers = array ('From' => $from,
+   'To' => $to,
+   'Subject' => $subject);
+ $smtp = Mail::factory('smtp',
+   array ('host' => $host,
+     'auth' => true,
+     'username' => $username,
+     'password' => $password));
+ 
+ $mail = $smtp->send($to, $headers, $body);
+ 
+ if (PEAR::isError($mail)) {
+   echo("<p>" . $mail->getMessage() . "</p>");
+  } else {
+   echo("<p>Message successfully sent!</p>");
+  }
 </body>
 </html>
